@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['extinguisher-helmet', 'fire extinguisher', 'fire signage', 'helmet']
+
+roboflow:
+  workspace: ballon-90fd9
+  project: iti107-assignment-o2rgp
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/ballon-90fd9/iti107-assignment-o2rgp/dataset/1
